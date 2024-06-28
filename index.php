@@ -11,7 +11,7 @@
     <?php include 'includes/header.php'; ?>
     <div class="container mt-5">
         <h1 class="text-center mb-4">Gerador de Currículos</h1>
-        <form id="resumeForm" action="generate_resume.php" method="POST">
+        <form id="resumeForm" action="gerador.php" method="POST">
             <div class="mb-3">
                 <label for="name" class="form-label">Nome:</label>
                 <input type="text" class="form-control" id="name" name="name" required>
